@@ -53,7 +53,7 @@ namespace String_Inserter_Y
                 input = input.Insert(insertAt, textInsert);
                 index += textInsert.Length;
             }
-            Console.WriteLine("starting write to file...");
+            //Console.WriteLine("starting write to file...");
             string writeToDir;
             if (checkBoxOverride.Checked)
             {
